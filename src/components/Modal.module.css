@@ -1,0 +1,31 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .container {
+    width: 40vw;
+    height: 50vh;
+    background-color: rgb(38, 92, 130);
+    border-radius: 16px;
+    padding: 24px;
+    z-index: 10;
+    text-align: center;
+  }
+  
